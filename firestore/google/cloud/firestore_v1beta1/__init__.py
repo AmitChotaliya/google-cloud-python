@@ -16,7 +16,7 @@
 
 from pkg_resources import get_distribution
 
-__version__ = get_distribution("google-cloud-firestore").version
+__version__ = 0.31.0
 
 from google.cloud.firestore_v1beta1 import types
 from google.cloud.firestore_v1beta1._helpers import GeoPoint
