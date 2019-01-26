@@ -41,9 +41,7 @@ from google.cloud.firestore_v1beta1.proto import write_pb2
 from google.protobuf import empty_pb2
 from google.protobuf import timestamp_pb2
 
-_GAPIC_LIBRARY_VERSION = pkg_resources.get_distribution(
-    "google-cloud-firestore"
-).version
+_GAPIC_LIBRARY_VERSION = '0.31.0'
 
 
 class FirestoreClient(object):
